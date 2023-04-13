@@ -1,0 +1,19 @@
+function Paralelos(vector) {
+   
+    if (vector.x !== 0 && vector.y === 0 && vector.z === 0) {
+      return true;
+    }
+    
+    
+    if (vector.x === 0 && vector.y !== 0 && vector.z === 0) {
+      return true;
+    }
+    
+   
+    if (vector.x === 0 && vector.y === 0 && vector.z !== 0) {
+      return true;
+    }
+    
+    return false;
+  }
+  
